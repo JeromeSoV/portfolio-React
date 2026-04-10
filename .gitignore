@@ -1,0 +1,6 @@
+.idea
+.vscode
+dist
+my-react-app/node_modules
+my-react-app/dist
+node_modules
