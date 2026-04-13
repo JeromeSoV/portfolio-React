@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
+
+
 const Accueil = () => {
 
     return (
-        <>
-            <div className="homePres">
+        <main className="home main">
+            <div className="home homePres">
                 <h2 className="title homeTitle">Bienvenue sur mon site personnel</h2>
                 <img id="profil" src="/gallery/portfolioweb/profil.jpg" alt="Photo de profil" className="facePic homeFace"/>
                 <p className="home paragraph">
@@ -19,12 +23,12 @@ const Accueil = () => {
                 <li className="item homeItem">Mes projets passés, présents et futurs.</li>
             </ul>
             <section className="homeLinksContainer">
-                <a href="/about" className="homeLink"><p>Qui je suis ?</p></a>
-                <a href="/projets" className="homeLink"><p>Voir mes projets</p></a>
-                <a href="/contact" className="homeLink"><p>Me contacter</p></a>
+                <Link to="/about" className="homeLink"><p>En savoir plus sur moi</p></Link>
+                <Link to="/projets" className="homeLink"><p>Voir mes projets</p></Link>
+                <Link to="/contact" className="homeLink"><p>Me contacter</p></Link>
             </section>
 
-        </>
+        </main>
     );
 }
 

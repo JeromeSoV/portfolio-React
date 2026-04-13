@@ -1,0 +1,12 @@
+.appFooter{
+    background-color: #222;
+    border-top: solid var(--main-color);
+    color: white;
+}
+.appFooter .footerSection{
+    text-align: right;
+    background-color: #333;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right : 1em;
+}

@@ -1,0 +1,51 @@
+
+@media (max-width: 940px){
+    aside{
+        display : none;
+    }
+
+}
+main{
+    display : flex;
+    flex-direction: row;
+}
+aside {
+    width : 20%;
+
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+.chapters_list{
+    display : flex;
+    flex-direction: column;
+    position: sticky;
+    right : 0;
+    top : 10em;
+
+}
+.chapter {
+    position: static;
+    text-decoration: none;
+    color: black;
+    background-color: lightskyblue;
+
+    padding-top: 1em ;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+    &:not(:first-of-type){
+        /*border-radius: 0px 10% 10% 0px / 0px 50% 50% 0px;*/
+    }
+    &:first-of-type{
+        border-top-style: solid;
+        border-top-color: black;
+    }
+    &:hover{
+        background-color: white;
+    }
+
+}

@@ -7,9 +7,10 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "system",
+    "allowImportingTsExtensions": true,
     "target": "esnext",
-    "types": ["node"],
+    "types": ["nodenext"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -43,5 +44,5 @@
     "moduleResolution": "nodenext",
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["my-react-app/src", "my-react-app/src/**/*.d.ts"],
 }
