@@ -12,7 +12,7 @@ const Header = () => {
             <div className={header.headerTop}>
                 <h1 className={header.headerTitle}>Jérôme Sauvé</h1>
                 <Link to="/">
-                    <img src="../../assets/gallery/icon.svg" alt="Logo personnel" className={header.headerLogo}></img>
+                    <img src="/gallery/icon.svg" alt="Logo personnel" className={header.headerLogo}></img>
                 </Link>
             </div>
             <nav className={header.headerNavigation}>
@@ -20,7 +20,7 @@ const Header = () => {
                 <NavLink to="/about" className={navLinkStyle}>Informations</NavLink>
                 <NavLink to="/projets" className={navLinkStyle}>Projets</NavLink>
                 <NavLink to="/contact" className={navLinkStyle}>Contact</NavLink>
-                <NavLink to="/docs/Jerome_Sauve.pdf" target="_blank" className={navLinkStyle}>Télecharger CV</NavLink>
+                <a href="/docs/Jerome_SAUVE_CV.pdf" target="_blank" className={header.navLink}>Télecharger CV</a>
             </nav>
         </header>
     );

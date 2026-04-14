@@ -30,7 +30,7 @@
 
 }
 .homeLink{
-    width: 10em;
+    width: 15em;
     height : 3em;
     background-color: aliceblue;
     border : 0.2em solid var(--main-color);

@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Accueil from './components/Accueil.js';
-import Informations from './components/Informations.js';
-import Projets from './components/projets/Projets.js';
-import Contact from './components/Contact.js';
-import Header from './components/general/Header.js';
-import Footer from './components/general/Footer.js';
+import Accueil from './components/Accueil.tsx';
+import Informations from './components/Informations.tsx';
+import Projets from './components/projets/Projets.tsx';
+import Contact from './components/Contact.tsx';
+import Header from './components/general/Header.tsx';
+import Footer from './components/general/Footer.tsx';
 
 function App() {
   return (

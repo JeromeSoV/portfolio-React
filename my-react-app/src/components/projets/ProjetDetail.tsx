@@ -1,4 +1,4 @@
-import { type ProjetDetailProp } from "../../types";
+import { type ProjetDetailProp } from "../../types.ts";
 
 
 const ProjetDetail = ({ slug } : ProjetDetailProp) =>{

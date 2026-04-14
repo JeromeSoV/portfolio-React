@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
-import ProjetDetail from "./ProjetDetail";
-import ProjetsListe from "./ProjetsListe";
+import ProjetDetail from "./ProjetDetail.tsx";
+import ProjetsListe from "./ProjetsListe.tsx";
 
 const Projets = ()=> {
     const {slug} = useParams();

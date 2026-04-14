@@ -1,4 +1,4 @@
-main{
+.contactDiv{
     display: flex;
     flex-direction: column;
     padding-top: 5em;
@@ -6,7 +6,7 @@ main{
     align-items: center;
 }
 
-main a{
+.contactLink{
     width: 15em;
     height: 3em;
     text-decoration: none;

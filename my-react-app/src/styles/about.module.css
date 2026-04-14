@@ -1,59 +1,49 @@
 
-
-main section{
+.aboutSection{
     display : flex;
     flex-direction: column;
     width : 70%;
     padding-left: 2em;
     padding-right: 2em;
 }
-section div{
+.aboutDiv{
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     text-align: justify;
-
 }
 
-section img{
+.aboutImg{
     width: 10%;
     border-radius: 50%;
     border: solid var(--main-color) 0.2em;
-
 }
-p{
+.aboutParagraph{
     padding-top: 0.25em;
     padding-bottom: 0.25em;
 }
-ul>*{
+.aboutListItem{
     list-style-type: none;
     border : solid black 0.1em;
+    padding: 0.5em 1em;
 }
-li{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-li{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-li:nth-child(even){
-
+.aboutListItem:nth-child(even){
     background-color: lightgray;
-
 }
-li:nth-child(odd){
+.aboutListItem:nth-child(odd){
     background-color: white;
 }
-section div:first-of-type{
+.aboutDiv:first-of-type{
     display : flex;
     align-items: center;
 }
-section div:first-of-type p{
+.aboutDiv:first-of-type .aboutParagraph{
     width:80%;
     margin-right: 2em;
 }
-section div:first-of-type img{
+.aboutDiv:first-of-type .aboutImg{
     width:10em;
     height: 10em;
 }
-
+.chapterTitle{
+    padding-left: 1em;
+}
