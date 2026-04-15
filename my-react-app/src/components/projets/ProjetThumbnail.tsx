@@ -17,11 +17,22 @@ const ProjetThumbnail = ({ slug } : ProjetDetailProp) => {
     useEffect(()=>{
         fetch("/archive/"+slug+"/index.json")
             .then(res => res.json())
-            .then(data => setProject({...data,image:`/archive/${slug}/gallery/icon.png`}));
+            .then((doc ) => {
+                const data = doc.data;
+                setProject({...data, image: `/archive/${slug}/gallery/icon.png`})
+            });
     },[])
 
+    const thumbnailStyle = {
+        backgroundImage: `url(${project.image})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "right bottom",
+        backgroundAttachment: "scroll",
+        backgroundSize: "20%",
+    };
+
     return (
-        <article className={projets.projectViewer} id={project.slug} style={{ backgroundImage: `url(${project.image})` }}>
+        <article className={projets.projectViewer} id={project.slug} style={thumbnailStyle}>
             <h4 className={projets.projectTitle} >{project.title} </h4>
             <p className={projets.projectResume} >{project.summary} <br/>
                 Jeu de survie/gestion par une mécanique de questions/réponses.</p>
