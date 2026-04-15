@@ -10,7 +10,7 @@
     "module": "system",
     "allowImportingTsExtensions": true,
     "target": "esnext",
-    "types": ["nodenext"],
+    "types": ["nodenext","react-dom/client","node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
