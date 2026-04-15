@@ -1,15 +1,81 @@
 ---
-title : "SAÉ 1.02 - dev"
-author : "Jérôme SAUVÉ"
+title : "SAÉ 1.02 : Développement et création d’un jeu ludo-pédagogique"
+author : ["Jérôme SAUVÉ", "Dawid BANAS"]
 date : "2020-04-01"
 tags : ["java","bash"]
 ---
 
-## Résumé
+## Présentation du jeu
 
-Création d'un jeu terminal en java basique.
+**Titre du jeu** : Lost In The Void
 
-## Compétences
+**Noms des membres de l’équipe** : Jérôme Sauvé, Dawid Banas
 
-1. Java
-2. Bash
+**Description du jeu :**
+
+Le joueur est le capitaine d’un vaisseau spatial qui se retrouve perdu dans l’espace. En attendant que des secours viennent l’aider, il lui faut gérer les ressources nécessaires à sa survie, tels que l’électricité, l’oxygène et la température pendant un certain nombre d’heures. Ce jeu est un jeu ludo-pédagogique car pour maintenir ses niveaux de ressources, il lui faut répondre à des questions d’électricité, de chimie ou de physique ou de culture générale autour de l’espace pour quelques actions supplémentaires, comme des révisions sur les thèmes donnés.
+
+Ajoutez ci-dessous une photographie ou capture d’écran pour illustrer votre jeu
+
+![Aperçu du menu principal](./img/menu.png)
+![Exemple de gestion d'une mauvaise réponse](./img/exqu.png)
+![Exemple de gestion d'une bonne réponse](./img/exqu2.png)
+
+## Auto-critique de notre projet
+
+### Ai-je réussi à répondre à tous les attendus du sujet ?
+
+*Rappel des attendus du cours :*
+• Modularité (types et fonctions) clarté (nommage) et qualité du code (algorithmique)
+Nous avons créé plusieurs types, un type pour la définition du vaisseau, un type pour la gestion des paramètres,  un type pour les questions posées et un type pour la création d’évènements aléatoires. On a respecté les conventions de nommage pour nos fonctions. Concernant la qualité du code, c’est difficile à juger comme ça de notre point de vue, ceci dit on a pris en compte au maximum l’économie des ressources pour éviter des calculs inutiles.
+• Externalisation des données (ASCII art, textes etc. dans des fichiers)
+On a utilisé de l’ASCII Art à but illustratif, afin de donner un style à notre menu principal(cf. première image), et pour faire des illustrations durant notre introduction de début de partie, voulant insister sur l’exposition et l’immersion de l’utilisateur dans son expérience.
+• Persistance des données (sauvegarde)
+On a fait en sorte de conserver certaines données clés comme les paramètres choisis par l’utilisateur, que ce soit la difficulté ou la taille des bulles, mais aussi d’offrir la possibilité d’enregistrer une partie avec tous ses paramètres dans deux fichiers csv, afin de pouvoir la réutiliser plus tard.
+• Contrôle de saisie (pas de plantage si mauvaise saisie)
+Afin d’éviter tout problème lors d’une saisie d’utilisateur, on a, au lieu de lire un nombre et des chaînes de caractère, fait en sorte de lire seulement des chaîne de caractères, que l’on pourra transformer en nombre de façon plus permissive avec une fonction maison, c’est-à-dire qu’une personne faisant une faute de frappe en tapant “1/8” ou “18*” au lieu de “18” aura quand même sa réponse perçue comme “18” par la machine.
+• Tests
+On a fait quelques fonctions de test sur des opérations que l’on jugeait testable, car pour certaines fonctions consistant en de l’affichage, il n’y avait pas de tests à faire à notre sens.
+
+### Comment s'est passé le travail avec mon binôme ?
+
+**Comment vous êtes-vous répartis les tâches ? Pourquoi ?**
+
+*Jérôme* : Personnellement je me suis concentré sur la création des différents types, des mécaniques de jeu principales ainsi que la persistance des données avec un système de sauvegarde de paramètres et de partie. C’était des partie dont il était  comme ça car on le sentait comme cela, j’étais souvent dans un bon élan pour créer de nouvelles mécaniques et pousser leur variétés, et dès qu’on trouvait un nouvel objectif on regardait vers qui il éta
+it le plus logique de le confier, et comme la base des mécaniques du jeu venaient de mon code, il était plus logique dans la plupart des cas que je prenne les objectifs demandant d’utiliser ce même code.
+*Dawid* : Je me suis principalement chargé de la gestion des états du jeu, notamment en assurant une transition fluide entre les différentes scènes, comme l’introduction et les phases de quiz. J’ai également conçu le format des quiz, en veillant à structurer les quiz de manière à pouvoir valider automatiquement les réponses saisies pour chaque question et déterminer si elles étaient correctes. J’ai consacré également du temps à améliorer le visuel du jeu, en travaillant particulièrement l’introduction pour la rendre immersive et en ajoutant des détails qui enrichissent l’expérience globale et le game design. J’ai également contribué à la correction de fonctions présentant des bugs.
+
+**Quelles difficultés avez-vous rencontrées lors de ce travail en commun ? et à titre individuel.**
+
+*Jérôme* : Pas de grosses difficultés, en tout cas pas du côté résolution de problème et articulation des éléments. Il y avait des fonctions qui étaient plutôt longues à créer sans qu’elles soient particulièrement difficiles, comme celle de la création d’un cadre qui comprend un texte car c’est un processus passant par plusieurs étapes de traitement de texte. Après, trouver des questions et les définir était surtout un peu pénible de mon point de vue.
+*Dawid* : Je n’ai pas rencontré de grosses difficultés non plus pendant le développement, mais j’ai tout de même dû réfléchir en profondeur pour structurer les questions dans un format idéal. Il fallait trouver une solution à la fois intuitive pour le jouer et facile à intégrer dans le code. Une autre petite difficulté était notre approche au développement, nous n’avons pas compilé le code dès le début, préférant d’abord construire une base solide pour le jeu ce qui a conduit à une phase de débogage assez intense une fois le code compilé où j’ai dû résoudre plusieurs bugs pour assurer que toutes les fonctionnalités se comportaient comme prévu.
+
+## Compétences acquises
+
+### Compétences techniques
+
+*Jérôme* :
+Réalisation d’un de mes premiers projets informatiques assez conséquent.
+Manipuler des données externes et cibler des données à conserver d’un lancement à l’autre.
+Concentrer plusieurs procédés afin d’avoir un code des plus lisibles en fin de parcours.
+*Dawid* :
+Réalisation d’un projet informatique en groupe.
+Structurer efficacement son code dans un environnement de travail collaboratif.
+Débogage et résolution de problèmes.
+
+### Outils mobilisés
+
+Ordinateurs universitaires et personnels.
+Utilisation du langage de programmation iJava, un langage se basant sur Java pour des débutants en programmation sans avoir la partie Programmation Orientée Objet.
+Codage sur Visual Studio Code, avec l’extension LiveShare permettant d’héberger plusieurs utilisateurs sur une même session afin de programmer simultanément sur le même dossier.
+
+### Savoir-être
+
+*Jérôme* : Être autonome, Faire preuve d’initiative et de débrouillardise.
+*Dawid* : Travail d’équipe, autonomie et responsabilité, réactivité face aux difficultés
+
+## Lien vers votre Github
+
+<https://github.com/Omicronvision/LostInTheVoid.git>
+
+
