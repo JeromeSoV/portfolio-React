@@ -3,7 +3,7 @@ import about from "../styles/about.module.css";
 const Informations = () => {
 
     return (
-        <section className={about.aboutSection}>
+        <main className={about.aboutMain}>
                 <h1>Informations</h1>
                 <h2 id="general" className={about.chapterTitle}>À propos de moi</h2>
                 <div className={about.aboutDiv}>
@@ -70,7 +70,7 @@ const Informations = () => {
                     Ces trois derniers centres d'intérêt se rejoignent en un projet personnel multi-disciplinaire : la création d'un jeu de rôle basé sur l'univers de The Legend of Zelda : Breath of the Wild. Pour le résumer, il s'agit de réimaginer l'univers présenté dans le jeu à une époque antérieure au jeu, et je voudrais lui donner vie par mes compétences de modélisation, et faire plonger des joueurs dans cet univers par mes capacités d'écriture, accompagnés si possible par des créations musicales originales.
                 </div>
 
-            </section>
+            </main>
     );
 }
 

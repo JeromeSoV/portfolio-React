@@ -1,4 +1,4 @@
-main section{
+.results{
     display : grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1em;
@@ -6,7 +6,7 @@ main section{
     padding-bottom: 40px;
 }
 
-section a{
+.resultItem{
     text-decoration: none;
     color: black;
     padding: 1em;
@@ -58,13 +58,13 @@ section a{
 }
 /* règle tablette */
 @media screen and (max-width: 1280px) {
-    main section{
+    .results{
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 /* règle mobile */
 @media screen and (max-width: 768px) {
-    main section{
+    .results{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
