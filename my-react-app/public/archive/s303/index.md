@@ -1,15 +1,11 @@
 ---
-title : "SAÉ 3.03 - dev"
-author : "Jérôme SAUVÉ"
+title : "SAÉ3.03 : Déploiement d'un service"
+author : ["Jérôme SAUVÉ","Enzo LECLERCQ"]
 date : "2020-04-01"
 tags : ["java","bash"]
 ---
 
-## Résumé
+## Résumé du projet
 
-Création d'un jeu terminal en java basique.
+yyyy
 
-## Compétences
-
-1. Java
-2. Bash
