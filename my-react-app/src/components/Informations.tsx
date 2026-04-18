@@ -1,6 +1,7 @@
 import about from "../styles/about.module.css";
 
 const Informations = () => {
+    document.title="JérômeS - Informations";
 
     return (
         <main className={about.aboutMain}>

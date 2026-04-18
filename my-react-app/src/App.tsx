@@ -7,7 +7,7 @@ import Header from './components/general/Header.tsx';
 import Footer from './components/general/Footer.tsx';
 
 function App() {
-  return (
+    return (
     <>
       <BrowserRouter>
       

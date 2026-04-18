@@ -1,7 +1,7 @@
 import contact from "../styles/contact.module.css";
 
 const Contact = () => {
-
+    document.title="JérômeS - Contact";
     return (
         <main className={contact.contactMain}>
             <a href="mailto:jerome.sauve.etu@univ-lille.fr" target="_blank" className={contact.contactLink}><p>M'envoyer un mail.</p></a>

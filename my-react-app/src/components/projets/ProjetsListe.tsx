@@ -2,10 +2,10 @@ import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 import ProjetThumbnail from "./ProjetThumbnail.tsx";
 import projets from "../../styles/projets.module.css";
-import type {ProjectThumbnail} from "../../types.ts";
 
 const ProjetListe = () =>{
     const [slugs,setSlugs] = useState([]);
+    document.title="JérômeS - Projets";
     useEffect(()=>{
         fetch("/archive/index.json")
             .then(res => res.json())

@@ -9,7 +9,7 @@ const initProjectDetail : ProjectDetail={
 }
 const ProjetDetail = ({ slug } : ProjetDetailProp) =>{
     const [detail,setDetail]=useState(initProjectDetail);
-
+    document.title=`JérômeS - Projet ${slug}`;
     useEffect(()=>{
         fetch(`/public/archive/${slug}/index.json`)
             .then(res => res.json())

@@ -3,7 +3,7 @@ import accueil from "../styles/accueil.module.css";
 
 
 const Accueil = () => {
-
+    document.title="JérômeS - Accueil";
     return (
         <main className={accueil.appMain}>
             <div className="home homePres">
