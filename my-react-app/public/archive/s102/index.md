@@ -3,6 +3,7 @@ title : "SAÉ 1.02 : Développement et création d’un jeu ludo-pédagogique"
 author : ["Jérôme SAUVÉ", "Dawid BANAS"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Jeu ludopédagogique de survie d'un vaisseau spatial, via mécanique de quiz thématique"
 ---
 
 ## Présentation du jeu

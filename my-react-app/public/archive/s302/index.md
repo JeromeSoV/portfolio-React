@@ -3,6 +3,7 @@ title : "SAÉ3.02 : Développement d'une application MVC"
 author : ["Jérôme SAUVÉ", "Noah Ho", "Louis HUARD", "Enzo LECLERCQ"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet de développement en MVC d'un jeu de labyrinthe."
 ---
 
 ## Résumé du projet

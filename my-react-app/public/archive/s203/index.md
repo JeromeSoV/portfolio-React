@@ -3,6 +3,7 @@ title : "SAÉ 2.03 - Installation de services réseaux"
 author : ["Jérôme SAUVÉ","Alexandre MAINTIER"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet d'approfondissement de la compréhension d'un système par la découverte d'installation de services réseaux."
 ---
 
 ## Présentation du projet

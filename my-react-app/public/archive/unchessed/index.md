@@ -2,7 +2,8 @@
 title : "Perso - Unchessed"
 author : "Jérôme SAUVÉ"
 date : "2020-04-01"
-tags : ["java","bash"]
+tags : ["C#"]
+summary : "Projet personnel de découverte de C#"
 ---
 
 ## Résumé

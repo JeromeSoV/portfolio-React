@@ -25,16 +25,18 @@ body {
     min-height: 100vh;
 }
 
-/* 3. Style the Main (The "Less Opaque" layer) */
 main {
     flex:1;
     background-color: rgba(255, 255, 255, 0.5); /* 50% white overlay, makes it clearer than body */
 }
 img {
-    opacity: 1; /* This now works because the parents use RGBA, not Opacity */
+    opacity: 1;
     max-width: 100%;
 }
 html{
     scroll-behavior: smooth;
 }
 
+.hidden{
+    display: none;
+}

@@ -3,6 +3,7 @@ title : "SAÉ 1.04 : Introduction aux BD"
 author : ["Jérôme SAUVÉ","Alexandre MAINTIER"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet d'initiation à la gestion de bases de données. Utilisation de Power AMC et Microsoft Access."
 ---
 
 ## Présentation du projet

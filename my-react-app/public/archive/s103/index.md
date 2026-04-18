@@ -3,6 +3,7 @@ title : "SAÉ 1.03 : Installation d’un poste"
 author : ["Jérôme SAUVÉ","Alexandre MAINTIER"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet en autonomie d'initiation à la gestion d'un système : installation, partitionnement, dual boot, commandes systèmes"
 ---
 
 ## Présentation du projet

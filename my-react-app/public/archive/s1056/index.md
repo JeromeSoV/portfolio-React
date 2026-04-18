@@ -2,7 +2,8 @@
 title : "SAÉ 1.05/1.06 : Recueil des besoins / Découverte de l’environnement économique"
 author : ["Jérôme SAUVÉ","Dawid BANAS", "El-Khaïr NOURDINE"]
 date : "2020-04-01"
-tags : ["html","css","économie"]
+tags : ["HTML","CSS","économie"]
+summary : "Projet pluridisciplinaire d'étude économique d'une entreprise et de création d'un site en statique"
 ---
 
 ## Présentation du projet

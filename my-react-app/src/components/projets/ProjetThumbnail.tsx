@@ -34,8 +34,7 @@ const ProjetThumbnail = ({ slug } : ProjetDetailProp) => {
     return (
         <article className={projets.projectViewer} id={project.slug} style={thumbnailStyle}>
             <h4 className={projets.projectTitle} >{project.title} </h4>
-            <p className={projets.projectResume} >{project.summary} <br/>
-                Jeu de survie/gestion par une mécanique de questions/réponses.</p>
+            <p className={projets.projectResume} >{project.summary}</p>
             <div className={projets.tagContainer}>
                 {project.tags.map((tag:string)=><ProjectTag type={tag} key={tag}/>)}
             </div>

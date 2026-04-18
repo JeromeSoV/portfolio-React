@@ -2,7 +2,8 @@
 title : "Perso - Portfolio V2"
 author : "Jérôme SAUVÉ"
 date : "2020-04-01"
-tags : ["java","bash"]
+tags : ["TypeScript","React","Node.JS"]
+summary : "Recréation de mon portfolio en React"
 ---
 
 ## Résumé

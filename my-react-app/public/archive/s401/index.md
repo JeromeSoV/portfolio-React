@@ -2,7 +2,8 @@
 title : "SAÉ 4.01 - dev"
 author : "Jérôme SAUVÉ"
 date : "2020-04-01"
-tags : ["java","bash"]
+tags : ["Java","Bruno","Tomcat","SQL"]
+summary : "Création d'une API REST en Java."
 ---
 
 ## Résumé

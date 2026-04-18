@@ -3,6 +3,7 @@ title : "SAÉ 2.05 : Gestion de Projet"
 author : ["Jérôme SAUVÉ"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet d'initiation à des outils d'organisation de projets"
 ---
 
 ## Présentation du projet

@@ -4,9 +4,8 @@ import ProjetThumbnail from "./ProjetThumbnail.tsx";
 import projets from "../../styles/projets.module.css";
 import type {ProjectThumbnail} from "../../types.ts";
 
-const ProjetDetail = () =>{
+const ProjetListe = () =>{
     const [slugs,setSlugs] = useState([]);
-    const [projectTB,setProjectTB] = useState([])
     useEffect(()=>{
         fetch("/archive/index.json")
             .then(res => res.json())
@@ -26,4 +25,4 @@ const ProjetDetail = () =>{
     )
 }
 
-export default ProjetDetail;
+export default ProjetListe;

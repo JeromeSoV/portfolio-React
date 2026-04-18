@@ -3,6 +3,7 @@ title : "SAÉ 2.06 : Travail en équipe, réalisation d'une vidéo de vulgarisat
 author : ["Jérôme SAUVÉ"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Exercice de vulgarisation et de présentation vidéo d'un sujet informatique technique."
 ---
 
 ## Présentation du projet

@@ -3,6 +3,7 @@ title : "SAÉ 3.01 - Projet Mini Agile"
 author : ["Jérôme SAUVÉ"]
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet en groupe de création d'une application en 3 jours, décomposés en rush de 4h"
 ---
 
 ## Résumé du projet

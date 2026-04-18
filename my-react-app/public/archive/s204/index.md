@@ -3,6 +3,7 @@ title : "SAÉ 2.04 : Exploitation d'une BD"
 author : "Jérôme SAUVÉ"
 date : "2020-04-01"
 tags : ["java","bash"]
+summary : "Projet d'approfondissement de gestion des bases de données et de manipulation d'un set important de données"
 ---
 
 ## Présentation du projet
