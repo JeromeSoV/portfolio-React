@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import type {ProjectContent, ProjectData} from "../../types.ts";
+import type {ProjectContent, ProjectData} from "../../my-react-app/src/types.ts";
 
 
 const DIR_NAME = "/public/archive";

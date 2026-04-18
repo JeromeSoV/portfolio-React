@@ -1,7 +1,7 @@
 import {remark} from "remark";
 
 import remarkHtml from "remark-html";
-import type {ProjectContent} from "../../types.ts";
+import type {ProjectContent} from "../../my-react-app/src/types.ts";
 import {data} from "react-router-dom";
 
 

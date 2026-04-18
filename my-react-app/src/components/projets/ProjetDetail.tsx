@@ -1,5 +1,4 @@
 import {type ProjectDetail, type ProjetDetailProp} from "../../types.ts";
-import {parseMdContent} from "../../utils/ArchiveCreator/mdParser.ts";
 import {useEffect, useState} from "react";
 import projet from "../../styles/projet.module.css";
 import {Link} from "react-router-dom";

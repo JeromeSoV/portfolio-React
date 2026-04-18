@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "devDependencies": {
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
@@ -7,6 +8,9 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "typescript": "^6.0.2"
+  },
+  "scripts": {
+    "parse" : "node scripts/ArchiveCreator/createArchive.ts"
   },
   "dependencies": {
     "react-router-dom": "^7.14.0"
