@@ -9,6 +9,10 @@ const initProjectDetail : ProjectDetail={
 }
 const ProjetDetail = ({ slug } : ProjetDetailProp) =>{
     const [detail,setDetail]=useState(initProjectDetail);
+    if(!slug){
+        const path : string[] = window.location.pathname.split("/");
+        slug = path[path.length-1]!;
+    }
     document.title=`JérômeS - Projet ${slug}`;
     useEffect(()=>{
         fetch(`/archive/${slug}/index.json`)
