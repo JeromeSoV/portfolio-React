@@ -1,9 +1,11 @@
 const tagColors= new Map([
     ["Javascript", "#F7DF1E"],
+    ["Bash", "#89E051"],
     ["React", "#61DAFB"],
     ["TypeScript", "#2B7489"],
     ["NodeJS", "#3C873A"],
     ["Python", "#3572A5"],
+    ["Astro", "#FF3E00"],
     ["C", "#00599C"],
     ["Java", "#B07219"],
     ["C++", "#F34B7D"],

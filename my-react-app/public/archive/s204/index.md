@@ -1,8 +1,8 @@
 ---
 title : "SAÉ 2.04 : Exploitation d'une BD"
-author : "Jérôme SAUVÉ"
+author : ["Jérôme SAUVÉ","Alexandre MAINTIER"]
 date : "2020-04-01"
-tags : ["java","bash"]
+tags : ["SQL","PostgreSQL","Excel"]
 summary : "Projet d'approfondissement de gestion des bases de données et de manipulation d'un set important de données"
 ---
 
@@ -12,11 +12,14 @@ summary : "Projet d'approfondissement de gestion des bases de données et de man
 
 Le projet d'exploitation de Base de données était un projet se basant sur deux ressources : la Base De Données et les Statistiques Descriptives. La partie BDD consistait en la création d'une base de données ventilées à partir d'un jeu de données brut, ici l'ensemble des participations aux Jeux Olympiques depuis ces 100 dernières années. Il s'agissait donc de créer les tables adéquates pour une répétition minamale des données, des vues pour une projection orientée de nos données et la formulation de requêtes. La partie Statistiques Descriptives est un prolongement de la première partie, ou nous prenons une partie des données pour en faire une analyse statistique.
 
-### (visuels)
+[//]: # (### &#40;visuels&#41;)
 
-![données statistiques concernant les participations de la France aux jeux d'été.](./livrables/captures/FRAS.png)
-![ représentation entre plusieurs pays de la proportion des femmes participantes.](./livrables/captures/Q3-24.png)
-![analyse de l'évolution des femmes médaillées parmis les femmes.](./livrables/captures/Q3-25.png)
+[//]: # ()
+[//]: # (![données statistiques concernant les participations de la France aux jeux d'été.]&#40;./gallery/&#41;)
+
+[//]: # (![ représentation entre plusieurs pays de la proportion des femmes participantes.]&#40;./livrables/captures/Q3-24.png&#41;)
+
+[//]: # (![analyse de l'évolution des femmes médaillées parmis les femmes.]&#40;./livrables/captures/Q3-25.png&#41;)
 
 ## Qualités demandées et acquises
 
@@ -24,6 +27,7 @@ Le projet d'exploitation de Base de données était un projet se basant sur deux
 
 - utilisation de psql
     - importer un jeu de données
+    - ventilation d'un jeu important de données
     - créer des tables de données et des vues
     - formuler des requêtes
 
@@ -48,25 +52,8 @@ Aucun rendu lié au domaine informatique.
 
 ### Livrables non liés au domaine informatique
 
-Rapport d'étude statistique, trouvable ici :
+Rapport d'étude statistique.
 
-## Mon bilan personnel rédigé
+## Liens utiles
 
-### Mes points forts
-
-- Expérience et facilités en mathématiques et en requêtage SQL.
-
-### Mes difficultés
-
-- pas vraiment de difficultés, si ce n'est des contraintes de temps lié à mon travail étudiant.
-- On a tardé à faire un choix dans l'interprétation de nos données, ce qui nous a causé un retard car on a dû refaire une bonne partie de l'analyse statistique pour gagner en pertinence et en qualité.
-
-### Mes points à améliorer
-
-- Peut-être quelques améliorations à apporter à mon esprit critique (cf. le revirement dans notre analyse qui est arrivéun peu tard).
-
-## Conclusion
-
-Moi et mon binôme avons eu une bonne implicaton dans le projet, et si le projet était à refaire il n'y aurait pas de grands changements qu'on pourrait apporter. Pour le BUT 2, en lien avec ce projet, je n'ai pas d'objectifs particuliers car je suis déjà en possession des compétences attendues à mon sens et ces compétences ne me semblent pas vraiment important pour mon proet personnel.
-
-
+[//]: # (![Lien vers les livrables du projet]&#40;lienNextcloud&#41;)

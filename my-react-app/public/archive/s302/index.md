@@ -1,15 +1,19 @@
 ---
 title : "SAÉ3.02 : Développement d'une application MVC"
-author : ["Jérôme SAUVÉ", "Noah Ho", "Louis HUARD", "Enzo LECLERCQ"]
+author : ["Jérôme SAUVÉ", "Noah HOYLAERTS", "Louis HUARD", "Enzo LECLERCQ"]
 date : "2020-04-01"
-tags : ["java","bash"]
+tags : ["Java","bash"]
 summary : "Projet de développement en MVC d'un jeu de labyrinthe."
 ---
 
 ## Résumé du projet
 
-Le projet de Développement d'une application consistait en la réalisation d'une application Java/JavaFX en groupe respectant une structure Modèle-Vue-Controleur respectant un cahier des charges donnée par le corps enseignant, un cahier des charges structurée en deux phases afin d'avoir à remanier un système existant pour s'adapter à de nouvelles demandes.
-Dans ce projet les compétences étaient évaluées sur notre régularité et la qualité de nos contributions au projet (commits, quantité et qualité de code).
+Le projet de Développement d'une application consistait en la réalisation d'une application Java/JavaFX en groupe
+respectant une structure Modèle-Vue-Controleur respectant un cahier des charges donnée par le corps enseignant,
+un cahier des charges structurée en deux phases afin d'avoir à remanier un système existant pour s'adapter à de 
+nouvelles demandes.
+Dans ce projet les compétences étaient évaluées sur notre régularité et la qualité de nos contributions au projet 
+(commits, quantité et qualité de code).
  
 ## Compétences
 
