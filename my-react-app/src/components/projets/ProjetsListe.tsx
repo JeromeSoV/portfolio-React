@@ -11,7 +11,8 @@ const ProjetListe = () =>{
             .then(res => res.json())
             .then(data => {
                 setSlugs(data);
-            });
+            })
+            .catch(err => console.error(err));
     },[])
 
     return(

@@ -18,9 +18,9 @@ Google Maps ou Waze, mais spécialisé sur les campus étudiants, et disponible 
 
 ### (visuels)
 
-![Diagramme de Gantt conçu](./gallery/gantt.png)
-![Prototype d'affiche de communication](./gallery/affiche.png)
-![Suite de l'affiche](./gallery/affiche2.png)
+![Diagramme de Gantt conçu](/archive/s205/gallery/gantt.png)
+![Prototype d'affiche de communication](/archive/s205/gallery/affiche.png)
+![Suite de l'affiche](/archive/s205/gallery/affiche2.png)
 
 ## Qualités demandées et acquises
 

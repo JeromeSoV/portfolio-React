@@ -17,9 +17,9 @@ ludo-pédagogique, car pour maintenir ses niveaux de ressources, il lui faut ré
 de chimie ou de physique ou de culture générale autour de l’espace pour quelques actions supplémentaires,
 comme des révisions sur les thèmes donnés.
 
-![Aperçu du menu principal](./gallery/menu.png)
-![Exemple de gestion d'une mauvaise réponse](./gallery/exqu.png)
-![Exemple de gestion d'une bonne réponse](./gallery/exqu2.png)
+![Aperçu du menu principal](/archive/s102/gallery/menu.png)
+![Exemple de gestion d'une mauvaise réponse](/archive/s102/gallery/exqu.png)
+![Exemple de gestion d'une bonne réponse](/archive/s102/gallery/exqu2.png)
 
 ## Description du projet
 

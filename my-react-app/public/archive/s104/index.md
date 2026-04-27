@@ -19,8 +19,8 @@ consistait en l'analyse du marché d'une entreprise fictive s'inscrivant dans no
 
 ### visuels liés au projet
 
-![Modèle Conceptuel de Données associé](./gallery/MCD.png)
-![Exemple de formulaire créé](./gallery/formulaire.png)
+![Modèle Conceptuel de Données associé](/archive/s104/gallery/MCD.png)
+![Exemple de formulaire créé](/archive/s104/gallery/formulaire.png)
 
 ## Qualités demandées et acquises
 

@@ -20,11 +20,11 @@ incompatibilités qu'il peut exister, comme les allergies.
 
 ### (visuels)
 
-![Diagramme UML de POO](./gallery/POO_V4.png)
+![Diagramme UML de POO](/archive/s2012/gallery/POO_V4.png)
 
-![Exemple de fenêtre d'IHM](./gallery/calcul_version2.png)
+![Exemple de fenêtre d'IHM](/archive/s2012/gallery/calcul_version2.png)
 
-![Exemple appariement de graphe](./gallery/appariementV2F2.png)
+![Exemple appariement de graphe](/archive/s2012/gallery/appariementV2F2.png)
 
 ## Qualités demandées et acquises
 

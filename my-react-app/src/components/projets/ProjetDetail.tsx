@@ -11,10 +11,11 @@ const ProjetDetail = ({ slug } : ProjetDetailProp) =>{
     const [detail,setDetail]=useState(initProjectDetail);
     document.title=`JérômeS - Projet ${slug}`;
     useEffect(()=>{
-        fetch(`/public/archive/${slug}/index.json`)
+        fetch(`/archive/${slug}/index.json`)
             .then(res => res.json())
             .then(data => setDetail(data))
-    },[]);
+            .catch(err => console.error(err));
+    },[slug]);
 
     return(
         <main className={projet.detailMain}>
@@ -27,7 +28,6 @@ const ProjetDetail = ({ slug } : ProjetDetailProp) =>{
             </div>
             <div className={projet.content} dangerouslySetInnerHTML={{__html :detail.content}}>
             </div>
-
         </main>
     )
 }

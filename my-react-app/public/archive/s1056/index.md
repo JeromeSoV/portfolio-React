@@ -22,11 +22,11 @@ destinée aux employés concernant la mise à disposition dudit service.
 
 ## Visuel de notre projet
 
-![Page d’accueil de notre site web](./gallery/accueil.png)
+![Page d’accueil de notre site web](/archive/s1056/gallery/accueil.png)
 
-![Exemple de page de notre site web.](./gallery/exemplePage.png)
+![Exemple de page de notre site web.](/archive/s1056/gallery/exemplePage.png)
 
-![Diagnostic stratégique de Google](./gallery/swot.png)
+![Diagnostic stratégique de Google](/archive/s1056/gallery/swot.png)
 
 ## Résumé de notre projet
 
