@@ -35,4 +35,4 @@ La logique backend est destinée à être évacuée dans un autre projet d'appre
   * Utilisation de librairies : Gray Matter, Remark, fs, path
 
 ## Lien vers le code source
-![Lien vers le repo de l'application](https://github.com/JeromeSoV/portfolio-React)
+[Lien vers le repo de l'application](https://github.com/JeromeSoV/portfolio-React)

@@ -27,7 +27,7 @@ Ce projet a été réalisé en un langage de programmation nommé iJava, une ver
 programmation orientée objet. C'est un jeu jouable via un terminal, ici par exemple avec le terminal de Visual Studio Code.
 
 
-## Compàétences
+## Compétences
 
 * Programmation
   * Compréhension des structures principales de programmation

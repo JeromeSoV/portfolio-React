@@ -1,51 +1,86 @@
 
 
 .detailMain{
-    display : flex;
-    flex-direction: column;
+
     width : 70%;
     padding-left: 2em;
     padding-right: 2em;
 }
 .content{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     text-align: justify;
-
+    margin-left: 25%;
 }
 
 .detailMain img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    border : solid var(--main-color) 0.2em;
+    width: 100%;
+    scale: 0.9 1;
     opacity: 1;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    margin-bottom: 0.5em;
+
 }
 .detailMain p{
     padding-top: 0.25em;
     padding-bottom: 0.25em;
+    line-height: 1.5em;
+    text-align: justify;
 }
 .detailMain ul{
+    list-style: symbols(cyclic "→");
+    border : solid black 0.1em;
+    width : 90%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.detailMain ul ul{
+    list-style-type: symbols(cyclic ">");
+    border : solid black 0.1em;
+    background-color: lightgray;
+    width : auto;
+    margin-right: 1em;
 
 }
 
-.detailMain li{
-
+.detailMain a{
+    text-decoration: none;
+    color: black;
+    border : solid var(--main-color) 0.5em;
+    border-radius: 0.2em;
+    padding : 0.2em 0.5em;
+    &:hover{
+        font-weight: bold;
+        color: white;
+        border-color: var(--main-color-hover);
+        border-radius: 0 0.5em 0.5em 0;
+        background-color: var(--main-color);
+    }
 }
-
 .parents{
     padding-top: 1em;
 }
 
 .parentLink{
     text-decoration: none;
+    border : solid var(--main-color) 0.2em;
+    border-radius: 10px;
+    padding: 0.5em 1em;
     color: black;
+
+    &:hover{
+        background-color: var(--main-color);
+        color: white;
+        font-weight: bold;
+    }
 }
 
-@media (max-width: 940px){
-   .detailMain{
-        width : 100%;
-    }
-
+.parents span{
+    font-weight: bolder;
+    color: var(--main-color);
+    padding-left: 0.5em;
+    font-size: 1.2em;
 }
