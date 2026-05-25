@@ -36,7 +36,7 @@ const ProjetThumbnail = ({ slug } : ProjetDetailProp) => {
             <h4 className={projets.projectTitle} >{project.title} </h4>
             <p className={projets.projectResume} >{project.summary}</p>
             <div className={projets.tagContainer}>
-                {project.tags.map((tag:string)=><ProjectTag type={tag} key={tag}/>)}
+                {project.tags.slice(0,3).map((tag:string)=><ProjectTag type={tag} key={tag}/>)}
             </div>
         </article>
     )
